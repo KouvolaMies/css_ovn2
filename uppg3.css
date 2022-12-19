@@ -1,0 +1,21 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    background-color: #ffffff;
+    padding: 10px;
+}
+.grid-container > div {
+    background-color: rgba(53, 53, 53, 0.8);
+    text-align: left;
+    padding: 20px;
+    font-size: 30px;
+    color: #ffffff;
+}
+.item1{
+    grid-column: 1 / 4;
+}
+.item4{
+    grid-row: 2 / 4;
+    grid-column: 3;
+}
